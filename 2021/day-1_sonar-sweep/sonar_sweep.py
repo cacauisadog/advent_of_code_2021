@@ -12,7 +12,7 @@ def read_input_file(file_name: str) -> str:
     return input_str.split('\n')
 
 
-def count_measurement_increases(input: str) -> None:
+def count_measurement_increases(input: str) -> int:
     increases = 0
     for i, entry in enumerate(input):
         if i > 0:
